@@ -1,3 +1,5 @@
+# Variational Autoencoders
+
 High-dimensional data often lie on lower-dimensional manifolds (as suggested by the manifold hypothesis), and neural networks trained on such data may learn features that reflect this intrinsic dimensionality. Quantifying this latent dimensionality can help us better understand the structure of the input space.
 
 Currently, there is no universal method to quantify input dimensionality. We investigated whether a meaningful definition of dimensionality could emerge through the use of dimensionality reduction techniques (DRTs) applied in classification tasks. Specifically, we examined how classification performance changes with latent dimensionality using two DRTs: PCA and VAE.
